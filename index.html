@@ -45,6 +45,11 @@
 
 				<h4>Ingénieur en Automatique, Développeur Indépendant</h4>
 				<hr class="" id="bar_home_title">
+
+				<br/>
+
+
+				<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-edit" class="svg-inline--fa fa-user-edit fa-w-20" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h274.9c-2.4-6.8-3.4-14-2.6-21.3l6.8-60.9 1.2-11.1 7.9-7.9 77.3-77.3c-24.5-27.7-60-45.5-99.9-45.5zm45.3 145.3l-6.8 61c-1.1 10.2 7.5 18.8 17.6 17.6l60.9-6.8 137.9-137.9-71.7-71.7-137.9 137.8zM633 268.9L595.1 231c-9.3-9.3-24.5-9.3-33.8 0l-37.8 37.8-4.1 4.1 71.8 71.7 41.8-41.8c9.3-9.4 9.3-24.5 0-33.9z"/></svg>
 		
 	        </div>
 		
@@ -447,6 +452,128 @@ Etude et conception des plans sous AutoCAD.<br/></p>
 				</div>	
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<div class="jumbotron col-8" id="presentation_post3">
+
+					<h5>Centres d'Intérêt</h5>
+
+					<hr class="w3-bar w3-border w3-black" id="bar_presentation3">
+
+					<p>Je suis une personne qui accentue la complémetarité par rapport à l'infériorité ou la supériorité, tout ce qui entoure l'homme est sensé occupé une partie d'intérêt puisqu'elle fait partie de la nature avec laquelle il communique<br/><br/>
+
+					Des sciences les plus profondes aux plus abstraites, mon centre d'intérêt est un peu partout ou la logique et le raisonnement prend existance, en passant par la musique et l'activité physique qui maintiennent l'équilibre émotionnel en osmose avec l'intellect.
+
+
+					</p>
+
+
+					
+				</div>		
+				
+				<div class="jumbotron col-8" id="presentation_post_frame3">
+
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+
+				
+
+				
+
+
+					
+				</div>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jumbotron col-12" id="cubesjumb" style="background-color: transparent; height: 350px" align="center">
+
+
+
+
+
+
+
+
+
+	<div id="cubeanim1" align="center">
+
+		
+	</div>
+	
+
+
+	<div  id="cubeanim2" align="center">
+
+			
+		
+	        </div>
+		
+	<div  id="cubeanim3" align="center">
+
+			
+		
+	        </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
 		
 
 
@@ -521,6 +648,19 @@ Etude et conception des plans sous AutoCAD.<br/></p>
 
       <br/>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
       
 
 
@@ -529,6 +669,13 @@ Etude et conception des plans sous AutoCAD.<br/></p>
 
 
   </div>
+
+
+
+
+
+
+
 
 
 
@@ -690,9 +837,12 @@ body{
 	margin-top: 0px;
 	border-radius: 0px;
 
+	height: 2100px;
+
 	font-family: calibri;
 
 }
+
 
 
 
@@ -907,6 +1057,135 @@ body{
 
 
 
+
+
+
+
+
+ #presentation_post3{
+
+ 	top:-500px;
+ 	
+	background-color: black;
+	margin-top: 0px;
+	border-radius: 0px;
+
+	z-index: +2;
+
+	font-family: calibri;
+
+	position: relative;
+ }
+
+
+
+#presentation_post_frame3{
+	background-color: transparent;
+	border-radius: 0px;
+  	border-color: transparent;
+    
+    top:-850px;
+    left: -7px;
+
+    position: relative;
+
+}
+
+
+
+
+
+
+#presentation_post3:hover + #presentation_post_frame3{
+    border-width: solid;
+    border-style: solid;
+	border-color: black;
+	z-index: +1;
+
+	animation-name: frame_post__;
+    animation-duration:0.4s;
+
+
+}
+
+@keyframes frame_post__{
+
+	0%{top:-150px; left:-50px; width: 0px}
+	50%{top:-150px;left:-7px;}
+	100%{top:-850px;left:-7px;}
+
+}
+
+
+
+
+#presentation_post2:hover > #bar_presentation2{
+
+	animation-name: dilatation__;
+	animation-duration:0.6s;
+	animation-iteration-count:1;
+
+
+}
+
+
+@keyframes dilatation__{
+
+	0%{width:20px;}
+	100%{}
+
+}
+
+
+
+#presentation_post3:hover{
+
+	animation-name: presentation_post_anim__;
+	animation-duration: 0.5s;
+	box-shadow: 4px 5px 6px 5px #222222;
+
+}
+
+ @keyframes presentation_post_anim__{
+
+ 	0%{
+ 	}
+ 	100%{
+ 		
+ 	}
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #after_left_posts{
 	background-color: transparent;
 	color: white;
@@ -914,6 +1193,11 @@ body{
 	top:-600px;
 	z-index: +2;
 }
+
+
+
+
+
 
 
 
@@ -967,6 +1251,8 @@ body{
 	background-color: black;
 	margin-top: 0px;
 	border-radius: 0px;
+
+	height: 2100px;
 
 	font-family: calibri;
 
@@ -1200,12 +1486,127 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+#cubesjumb{
+
+	top:-700px;
+	z-index:-6;
+}
+
+
+
+
+
+
+#cubeanim1{
+	background-color: transparent;
+	border-color: black;
+	border-width: solid;
+    border-style: solid;
+
+    z-index: +3;
+
+    position: relative;
+	
+
+	animation-name: cubicanim;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+
+#cubeanim2{
+	background-color: transparent;
+	border-color: black;
+	border-width: solid;
+    border-style: solid;
+
+    z-index: +4;
+
+    position: relative;
+
+    animation-name: cubicanim_;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    top:-100px;
+	
+}
+
+
+
+
+
+#cubeanim3{
+	background-color: transparent;
+	border-color: black;
+	border-width: solid;
+    border-style: solid;
+
+    z-index: +4;
+
+    position: relative;
+
+    animation-name: cubicanim__;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+
+    top:-200px;
+	
+}
+
+@keyframes cubicanim{
+	0%{width: 200px;height: 200px;}
+	50%{width: 20px;height: 20px;}
+    100%{width: 200px;height: 200px;}
+}
+
+
+@keyframes cubicanim_{
+	0%{width: 20px;height: 20px;}
+	50%{width: 200px;height: 200px;}
+    100%{width: 20px;height: 20px;}
+}
+
+@keyframes cubicanim__{
+	0%{width: 20px;height: 20px;}
+	50%{width: 20px;height: 20px;}
+    100%{width: 200px;height: 200px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Footer*/
 
 
 
 
 footer{
+
+	z-index: -4;
 	
 }
 
@@ -1216,6 +1617,7 @@ footer{
      position: relative;
 
      text-align: center;
+
     
 
 	}
